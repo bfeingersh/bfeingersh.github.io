@@ -1,4 +1,41 @@
 h1
 {
-color:blue;
+color: #E74C3C;
+font-weight: 100;
+}
+
+body
+{
+font-family: Arial, sans-serif;
+background-color: #1D2A36;
+margin: 50px 100px;
+}
+
+h2
+{
+color: #00ACE8;
+font-size: 22px;
+font-weight: 100;
+}
+
+h3
+{
+color: #2980B9;
+font-size: 17px;
+font-weight: 100;
+}
+
+.cat
+{
+color: #E74C3C;
+}
+
+.twitter
+{
+color: #3498DB;
+}
+
+.twitter:hover
+{
+color: #AAAAFF;
 }
