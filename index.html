@@ -1,13 +1,16 @@
----
-layout: default
-title: Your New Jekyll Site
----
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+    <title>Building my own webpage!</title>
+</head>
+<body>
+    <h1><span class="glow">Ben Feingersh</span></h1>
+    <a href="http://www.endoftheinter.net/"><img src="Images/cool_cat.gif" class="cat_header"/></a>
+    
+    <h3>Hello world! My name is <a href="http://www.facebook.com/bfeingersh">Ben Feingersh</a>. I am a soon-to-be member of the SIB Spring '14 class in Technical Marketing. I graduated from Northeastern University in Fall 2012 and worked at Merrill Communications for the better part of the last year.</p>
+    <h3>I love gaming, rock climbing, biking, and travel. <a href="http://www.twitter.com/feingersh" class="twitter">Here's my twitter!</a> It's not funny.</p>
+    <h2>Anything else?</h2>
+    <h3>I like to think I'm a pretty <span class="glow">cool cat</span>. Like that cat up there.</p>
+</body>
+</html>
