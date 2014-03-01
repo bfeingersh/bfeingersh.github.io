@@ -11,4 +11,4 @@ To test the links, here's a link to my [Twitter][bf_twitter]. [Facebook][bf_face
 
 [bf_twitter]: http://www.twitter.com/feingersh
 [bf_facebook]: http://www.facebook.com/bfeingersh
-[bf_sib_page]: http://bfeingersh.github.io/
+[bf_sib_page]: http://bfeingersh.github.io/index2.html
