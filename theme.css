@@ -1,3 +1,4 @@
+
 h1
 {
 color: #E74C3C;
@@ -6,7 +7,7 @@ font-weight: 100;
 
 body
 {
-font-family: Arial, sans-serif;
+font-family: asap, sans-serif;
 background-color: #1D2A36;
 margin: 50px 100px;
 }
@@ -25,6 +26,18 @@ font-size: 17px;
 font-weight: 100;
 }
 
+a
+{
+color: #3498DB;
+}
+
+a:hover
+{
+color: #AAAAFF;
+text-shadow: 1px 1px #E74C3C;
+-webkit-transition: 0.3s;
+}
+
 .cat
 {
 color: #E74C3C;
@@ -35,7 +48,28 @@ color: #E74C3C;
 color: #3498DB;
 }
 
+.cat_header:hover
+{
+box-shadow: 0px 0px 20px #E74C3C;
+-webkit-transition: 0.3s;
+}
+
 .twitter:hover
 {
 color: #AAAAFF;
+text-shadow: 1px 1px #3498DB;
+-webkit-transition: 0.3s;
+}
+
+.glow:hover
+{
+text-shadow: 0px 0px 20px #E74C3C;
+-webkit-transition: 0.3s;
+}
+
+@font-face {
+	font-family: asap;
+	src: local('Asap-regular'),
+			url("Fonts/asap/Asap-Regular.ttf") format('truetype');
+	font-weight: normal;
 }
