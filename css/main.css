@@ -15,7 +15,7 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   font: 13.34px;
-  font-family: abel;
+  font-family: asap;
   font-size: small;
   text-align: center;
 }
@@ -31,9 +31,9 @@ a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
 @font-face {
-  font-family: abel;
-  src: local('/_fonts/abel/Abel-Regular.ttf'),
-      url("/_fonts/abel/Abel-Regular.ttf") format('truetype');
+  font-family: asap;
+  src: local('Asap-regular'),
+      url("Fonts/asap/Asap-Regular.ttf") format('truetype');
   font-weight: normal;
 }
 
