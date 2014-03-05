@@ -15,7 +15,7 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   font: 13.34px;
-  font-family: abel;
+  font-family: abel, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -32,8 +32,8 @@ a:visited { color: #a0a; }
 
 @font-face {
   font-family: abel;
-  src: local('/_fonts/abel/Abel-Regular.ttf'),
-      url("/_fonts/abel/Abel-Regular.ttf") format('truetype');
+  src: local('Abel-Regular'),
+      url("_fonts/abel/Abel-Regular.ttf") format('truetype');
   font-weight: normal;
 }
 
@@ -53,7 +53,7 @@ a:visited { color: #a0a; }
 
 .posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: abel, Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
@@ -73,7 +73,8 @@ a:visited { color: #a0a; }
 
 .header a {
   font-weight: bold;
-  text-decoration: none;
+/*text-decoration: none;*/
+  font-family: abel;
 }
 
 .title {
