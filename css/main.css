@@ -32,7 +32,7 @@ a:visited { color: #a0a; }
 
 @font-face {
   font-family: abel;
-  src: local('Abel-regular'),
+  src: local('Abel-Regular'),
       url("fonts/abel/Abel-Regular.ttf") format('truetype');
   font-weight: normal;
 }
