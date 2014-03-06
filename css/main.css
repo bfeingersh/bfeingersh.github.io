@@ -31,9 +31,9 @@ a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
 @font-face {
-  font-family: asap;
-  src: local('Asap-regular'),
-      url("fonts/asap/Asap-Regular.ttf") format('truetype');
+  font-family: abel;
+  src: local('Abel-regular'),
+      url("fonts/abel/Abel-Regular.ttf") format('truetype');
   font-weight: normal;
 }
 
