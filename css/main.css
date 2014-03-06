@@ -33,7 +33,7 @@ a:visited { color: #a0a; }
 @font-face {
   font-family: asap;
   src: local('Asap-regular'),
-      url("Fonts/asap/Asap-Regular.ttf") format('truetype');
+      url("fonts/asap/Asap-Regular.ttf") format('truetype');
   font-weight: normal;
 }
 
